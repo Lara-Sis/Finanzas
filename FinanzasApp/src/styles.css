@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #eef1f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+.botones {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#agregarIngreso {
+    background-color: #28a745;
+}
+
+#agregarIngreso:hover {
+    background-color: #218838;
+}
+
+#agregarGasto {
+    background-color: #dc3545;
+}
+
+#agregarGasto:hover {
+    background-color: #c82333;
+}
+
+#balance {
+    font-size: 30px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.ingreso {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.gasto {
+    color: #dc3545;
+    font-weight: bold;
+}
